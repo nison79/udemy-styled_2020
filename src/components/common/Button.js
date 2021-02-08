@@ -2,7 +2,7 @@ import styled , {css} from 'styled-components'
 
 const Button = styled.button`
   color:white;
-  background: ${props =>props.secondary ? 'black' : '#f8049c' };
+  background: ${props =>props.secondary ? '#FED450' : '#f8049c' };
   font-weight:bold;
   ${p => p.large ? css`
     padding:12px;
@@ -28,4 +28,4 @@ const Button = styled.button`
   }
 `
 
-export  {Button};
+export default  Button;
